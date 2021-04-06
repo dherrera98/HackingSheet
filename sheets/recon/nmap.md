@@ -1,7 +1,7 @@
 # NMAP
 > Nmap (Network Mapper) is a free and open-source network scanner and is used to discover hosts and services on a computer network by sending packets and analyzing the responses.
 
-> Repo: https://nmap.org/
+> 📖 Repository and official documentation: https://nmap.org/
 
 ---
 
@@ -126,7 +126,7 @@ nmap --script=asn-query,whois,ipgeolocation-maxmind 10.0.0.0/24
 
 ---
 
-## References
+## 📚 References
 - [nmap.org](https://nmap.org/)
 - [github.com/rackerlabs/scantron](https://github.com/rackerlabs/scantron)
 - [github.com/cloudflare/flan](https://github.com/cloudflare/flan)
