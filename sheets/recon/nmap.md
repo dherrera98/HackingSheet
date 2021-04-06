@@ -1,7 +1,5 @@
 # NMAP
-> Nmap (Network Mapper) is a free and open-source network scanner and
-is used to discover hosts and services on a computer network by
-sending packets and analyzing the responses.
+> Nmap (Network Mapper) is a free and open-source network scanner and is used to discover hosts and services on a computer network by sending packets and analyzing the responses.
 
 > Repo: https://nmap.org/
 
