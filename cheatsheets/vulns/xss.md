@@ -3,7 +3,6 @@
 >
 >Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it.
 
-
 > 📖 More information: https://owasp.org/www-community/attacks/xss/
 
 ---
