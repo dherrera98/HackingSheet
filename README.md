@@ -1,6 +1,5 @@
 # HackingSheet
-Various CheatSheets on hacking
-
+An amazing repository to find and contribute to on cheatsheets related to hacking.
 # List 📃
 ## 🛠️ Hackings tools
 ### RECON 👁️
