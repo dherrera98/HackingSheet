@@ -1,5 +1,5 @@
 # HackingSheet
-Various cheat sheets on hacking
+Various CheatSheets on hacking
 
 # List 📃
 ## RECON 👁️
