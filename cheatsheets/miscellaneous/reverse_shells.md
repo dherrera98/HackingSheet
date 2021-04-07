@@ -2,7 +2,6 @@
 > A reverse shell is a shell session established on a connection that is initiated from a remote machine, not from the local host.
 
 ---
-
 ## Listener
 ### Netcat
 ```
