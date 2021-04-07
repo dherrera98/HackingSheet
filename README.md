@@ -9,3 +9,6 @@ An amazing repository to find and contribute to on cheatsheets related to hackin
 
 ## 🐛 Vulns
 - [XSS](https://github.com/dherrera98/HackingSheet/blob/main/cheatsheets/vulns/xss.md) - Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user.
+
+## 🌀 Miscellaneous
+- [Reverse shells](https://github.com/dherrera98/HackingSheet/blob/main/cheatsheets/miscellaneous/reverse_shells.md) - A reverse shell is a shell session established on a connection that is initiated from a remote machine, not from the local host.
