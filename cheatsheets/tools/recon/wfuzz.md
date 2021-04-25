@@ -61,23 +61,23 @@ Options:
 
 ### List subdomains of a specific domain
 ```shell
-wfuzz -w [wordlist] https://FUZZ.domain.com/
+wfuzz -w <wordlist> https://FUZZ.domain.com/
 ```
 ### Brute force directories
 ```shell
-wfuzz -w[wordlist] https://domain.com/FUZZ 
+wfuzz -w <wordlist> https://domain.com/FUZZ 
 ```
 ### Hides status codes from server response
 ```shell
-wfuzz --hc=404,302,301 -w[wordlist] http://domain.com/FUZZ
+wfuzz --hc=404,302,301 -w <wordlist> http://domain.com/FUZZ
 ```
 ### Hide the lines that contain X number of words
 ```shell
-wfuzz --hw=100 -w [wordlist] http://domain.com/FUZZ
+wfuzz --hw=100 -w <wordlist> http://domain.com/FUZZ
 ```
 ### Brute force to file with extension
 ```shell
-wfuzz -w[wordlist] http://domain.com/cgi-bin/FUZZ.cgi 
+wfuzz -w <wordlist> http://domain.com/cgi-bin/FUZZ.cgi 
 ```
 
 ---
