@@ -1,18 +1,20 @@
 # Gobuster
+
 > Gobuster is a tool used to brute-force:
-> - URIs (directories and files) in web sites.
-> - DNS subdomains (with wildcard support).
-> - Virtual Host names on target web servers.
-> - Open Amazon S3 buckets
-
-> 📖 Repository and official documentation: https://github.com/OJ/gobuster
-
----
+>
+> * URIs \(directories and files\) in web sites.
+> * DNS subdomains \(with wildcard support\).
+> * Virtual Host names on target web servers.
+> * Open Amazon S3 buckets
+>
+> 📖 Repository and official documentation: [https://github.com/OJ/gobuster](https://github.com/OJ/gobuster)
 
 ## ❓ Help
-<details>
-<summary>gobuster -h</summary>
-<pre>
+
+gobuster -h
+
+```text
+
 Usage:
   gobuster [command]
 
@@ -38,45 +40,51 @@ Flags:
   -w, --wordlist string   Path to the wordlist
 
 Use "gobuster [command] --help" for more information about a command.
-</pre>
-</details>
-
-
----
+```
 
 ## DNS Mode
 
 ### Brute force to dns specifying domain, showing the ips
-```shell
+
+```text
 gobuster dns -d <domain> -w <word_list.txt> -i
 ```
+
 ### Brute force to dns specifying domain, showing the cname
-```shell
+
+```text
 gobuster dns -d <domain> -w <word_list.txt> -c
 ```
+
 ### Brute force to dns specifying the domain, showing the ips, using 10 threads and verbose mode
-```shell
+
+```text
 gobuster dns -d <domain> -w <word_list.txt> -i -v -t 10
 ```
 
 ## Dir Mode
+
 ### Brute force to directories, specifying files types
-```shell
+
+```text
 gobuster dir -u <url> -w <wordlist_file.txt> -x <file_extensions>
 ```
+
 ### Brute force to directories, specifying file types, showing extended information and body length
-```shell
+
+```text
 gobuster dir -u <url> -w <wordlist_file.txt> -x <file_extensions> -e -l
 ```
+
 ### Brute force directories by adding cookies to the request and skipping the TLS check
-```shell
+
+```text
 gobuster dir -u <url> -w <wordlist_file.txt> -x <file_extensions> -c <cookie> -k
 ```
 
----
-
 ## 📚 References
 
-- [github.com/OJ/gobuster](https://github.com/OJ/gobuster)
-- [tools.kali.org/web-applications/gobuster](https://tools.kali.org/web-applications/gobuster)
-- [null-byte.wonderhowto.com/how-to/scan-websites-for-interesting-directories-files-with-gobuster-0197226/](https://null-byte.wonderhowto.com/how-to/scan-websites-for-interesting-directories-files-with-gobuster-0197226/)
+* [github.com/OJ/gobuster](https://github.com/OJ/gobuster)
+* [tools.kali.org/web-applications/gobuster](https://tools.kali.org/web-applications/gobuster)
+* [null-byte.wonderhowto.com/how-to/scan-websites-for-interesting-directories-files-with-gobuster-0197226/](https://null-byte.wonderhowto.com/how-to/scan-websites-for-interesting-directories-files-with-gobuster-0197226/)
+
