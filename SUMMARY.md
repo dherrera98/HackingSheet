@@ -1,7 +1,7 @@
 # Table of contents
 
 * [README](README.md)
-* [cheatsheets](cheatsheets/README.md)
+* [Cheatsheets](cheatsheets/README.md)
   * [Miscellaneous](cheatsheets/miscellaneous/README.md)
     * [Reverse shells](cheatsheets/miscellaneous/reverse_shells.md)
   * [Tools](cheatsheets/tools/README.md)
