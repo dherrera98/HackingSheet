@@ -24,5 +24,5 @@ An amazing repository to find and contribute to on cheatsheets related to hackin
 
 ### 🌀 Miscellaneous
 
-* [Reverse shells](https://dherrera-98.gitbook.io/hack/v/main/cheatsheets/miscellaneous/reverse_shells) - A reverse shell is a shell session established on a connection that is initiated from a remote machine, not from the local host.
+* [Reverse shells](cheatsheets/miscellaneous/reverse_shells.md) - A reverse shell is a shell session established on a connection that is initiated from a remote machine, not from the local host.
 

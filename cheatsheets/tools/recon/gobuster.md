@@ -14,7 +14,6 @@
 gobuster -h
 
 ```text
-
 Usage:
   gobuster [command]
 
@@ -46,19 +45,19 @@ Use "gobuster [command] --help" for more information about a command.
 
 ### Brute force to dns specifying domain, showing the ips
 
-```text
+```shell
 gobuster dns -d <domain> -w <word_list.txt> -i
 ```
 
 ### Brute force to dns specifying domain, showing the cname
 
-```text
+```shell
 gobuster dns -d <domain> -w <word_list.txt> -c
 ```
 
 ### Brute force to dns specifying the domain, showing the ips, using 10 threads and verbose mode
 
-```text
+```shell
 gobuster dns -d <domain> -w <word_list.txt> -i -v -t 10
 ```
 
@@ -66,19 +65,19 @@ gobuster dns -d <domain> -w <word_list.txt> -i -v -t 10
 
 ### Brute force to directories, specifying files types
 
-```text
+```shell
 gobuster dir -u <url> -w <wordlist_file.txt> -x <file_extensions>
 ```
 
 ### Brute force to directories, specifying file types, showing extended information and body length
 
-```text
+```shell
 gobuster dir -u <url> -w <wordlist_file.txt> -x <file_extensions> -e -l
 ```
 
 ### Brute force directories by adding cookies to the request and skipping the TLS check
 
-```text
+```shell
 gobuster dir -u <url> -w <wordlist_file.txt> -x <file_extensions> -c <cookie> -k
 ```
 

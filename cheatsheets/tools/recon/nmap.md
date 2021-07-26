@@ -9,7 +9,6 @@
 nmap -h
 
 ```text
-
 Nmap 7.91 ( https://nmap.org )
 Usage: nmap [Scan Type(s)] [Options] {target specification}
 TARGET SPECIFICATION:
@@ -123,175 +122,175 @@ MISC:
 
 ### Scan a Single Target
 
-```text
+```shell
 nmap 10.0.0.1
 ```
 
 ### Scan a host
 
-```text
+```shell
 nmap www.testhostname.com
 ```
 
 ### Scan a range of IPs
 
-```text
+```shell
 nmap 10.0.0.1-20
 ```
 
 ### Scan a subnet
 
-```text
+```shell
 nmap 10.0.0.0/24
 ```
 
-### Scan targets from a text file
+### Scan targets from a shell file
 
-```text
+```shell
 nmap -iL list-of-ips.txt
 ```
 
 ### Scan a single Port
 
-```text
+```shell
 nmap -p 22 10.0.0.1
 ```
 
 ### Scan a range of ports
 
-```text
+```shell
 nmap -p 1-100 10.0.0.1
 ```
 
 ### Scan 100 most common ports \(Fast\)
 
-```text
+```shell
 nmap -F 10.0.0.1
 ```
 
 ### Scan all 65535 ports
 
-```text
+```shell
 nmap -p- 10.0.0.1
 ```
 
 ### Scan using TCP connect
 
-```text
+```shell
 nmap -sT 10.0.0.1
 ```
 
 ### Scan using TCP SYN scan \(default\)
 
-```text
+```shell
 nmap -sS 10.0.0.1
 ```
 
 ### Scan UDP ports
 
-```text
+```shell
 nmap -sU -p 123,161,162 10.0.0.1
 ```
 
 ### Scan selected ports - ignore discovery
 
-```text
+```shell
 nmap -Pn -F 10.0.0.1
 ```
 
 ### Detect OS and Services
 
-```text
+```shell
 nmap -A 10.0.0.1
 ```
 
 ### Standard service detection
 
-```text
+```shell
 nmap -sV 10.0.0.1
 ```
 
 ### More aggressive Service Detection
 
-```text
+```shell
 nmap -sV --version-intensity 5 10.0.0.1
 ```
 
 ### Lighter banner grabbing detection
 
-```text
+```shell
 nmap -sV --version-intensity 0 10.0.0.1
 ```
 
 ### Save default output to file
 
-```text
+```shell
 nmap -oN outputfile.txt 10.0.0.1
 ```
 
 ### Save results as XML
 
-```text
+```shell
 nmap -oX outputfile.xml 10.0.0.1
 ```
 
 ### Save results in a format for grep
 
-```text
+```shell
 nmap -oG outputfile.txt 10.0.0.1
 ```
 
 ### Save in all formats
 
-```text
+```shell
 nmap -oA outputfile 10.0.0.1
 ```
 
 ### Scan using default safe scripts
 
-```text
+```shell
 nmap -sV -sC 10.0.0.1
 ```
 
 ### Get help for a script
 
-```text
+```shell
 nmap --script-help=ssl-heartbleed
 ```
 
 ### Scan using a specific NSE script
 
-```text
+```shell
 nmap -sV -p 443 –script=sslheartbleed.nse 10.0.0.1
 ```
 
 ### Scan with a set of scripts
 
-```text
+```shell
 nmap -sV --script=smb* 10.0.0.1
 ```
 
 ### Gather page titles from HTTP services
 
-```text
+```shell
 nmap --script=http-title 10.0.0.0/24
 ```
 
 ### Get HTTP headers of web services
 
-```text
+```shell
 nmap --script=http-headers 10.0.0.0/24
 ```
 
 ### Find web apps from known paths
 
-```text
+```shell
 nmap --script=http-enum 10.0.0.0/24
 ```
 
 ### Find Information about IP address
 
-```text
+```shell
 nmap --script=asn-query,whois,ipgeolocation-maxmind 10.0.0.0/24
 ```
 

