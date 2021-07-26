@@ -13,4 +13,5 @@
       * [WFUZZ](cheatsheets/tools/recon/wfuzz.md)
   * [vulns](cheatsheets/vulns/README.md)
     * [XSS](cheatsheets/vulns/xss.md)
+    * [SQLi](cheatsheets/vulns/sqli.md)
 
