@@ -11,12 +11,12 @@ python -c 'import pty; pty.spawn("/bin/bash")'
 
 ## Python fully Interactive TTY
 
-1. Spawn a TTY shell
+### 1. Spawn a TTY shell
 ```shell
 python -c 'import pty; pty.spawn("/bin/bash")'
 ```
 
-2. Upgrade to Full Interactive Shell
+### 2. Upgrade to Full Interactive Shell
 ```shell
 export TERM=xterm
 ```
