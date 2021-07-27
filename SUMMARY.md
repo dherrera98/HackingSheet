@@ -12,6 +12,8 @@
       * [NMAP](cheatsheets/tools/recon/nmap.md)
       * [Sublist3r](cheatsheets/tools/recon/sublist3r.md)
       * [WFUZZ](cheatsheets/tools/recon/wfuzz.md)
+    * [SQLi](cheatsheets/tools/SQLi/README.md)
+      * [SQLMap](cheatsheets/tools/SQLi/sqlmap.md)
   * [Vulns](cheatsheets/vulns/README.md)
     * [XSS](cheatsheets/vulns/xss.md)
     * [SQLi](cheatsheets/vulns/SQLi.md)

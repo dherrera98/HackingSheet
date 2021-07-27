@@ -18,10 +18,13 @@ An amazing repository to find and contribute to on cheatsheets related to hackin
 * [Dirb](cheatsheets/tools/recon/dirb.md) - Dirb is a Web Content Scanner. It looks for existing \(and/or hidden\) Web Objects.
 * [wfuzz](cheatsheets/tools/recon/wfuzz.md) - This simple concept allows any input to be injected in any field of an HTTP request, allowing to perform complex web security attacks in different web application components such as: parameters, authentication, forms, directories/files, headers, etc.
 
+#### SQLI
+* [SQLMap](cheatsheets/tools/SQLi/sqlmap.md) - sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
+
 ### 🐛 Vulns
 
 * [XSS](cheatsheets/vulns/XSS.md) - Cross-Site Scripting \(XSS\) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user.
-* [SQLi](cheatsheets/vulns/SQLi.md) - A SQL injection attack consists of insertion or “injection” of a SQL query via the input data from the client to the application. A successful SQL injection exploit can read sensitive data from the database, modify database data (Insert/Update/Delete), execute administration operations on the database (such as shutdown the DBMS), recover the content of a given file present on the DBMS file system and in some cases issue commands to the operating system. SQL injection attacks are a type of injection attack, in which SQL commands are injected into data-plane input in order to affect the execution of predefined SQL commands.
+* [SQLi](cheatsheets/vulns/SQLi.md) - A SQL injection attack consists of insertion or “injection” of a SQL query via the input data from the client to the application.
 
 ### 🌀 Miscellaneous
 
