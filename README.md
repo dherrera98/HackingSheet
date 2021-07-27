@@ -27,3 +27,4 @@ An amazing repository to find and contribute to on cheatsheets related to hackin
 
 * [Reverse shells](cheatsheets/miscellaneous/reverse_shells.md) - A reverse shell is a shell session established on a connection that is initiated from a remote machine, not from the local host.
 
+* [Interactive shell](cheatsheets/miscellaneous/interactive_shell.md) - Often during pen tests you may obtain a shell without having tty, yet wish to interact further with the system. Here are some commands which will allow you to spawn a tty shell. Obviously some of this will depend on the system environment and installed packages.

@@ -4,6 +4,7 @@
 * [Cheatsheets](cheatsheets/README.md)
   * [Miscellaneous](cheatsheets/miscellaneous/README.md)
     * [Reverse shells](cheatsheets/miscellaneous/reverse_shells.md)
+    * [Interactive shell](cheatsheets/miscellaneous/interactive_shell.md)
   * [Tools](cheatsheets/tools/README.md)
     * [Recon](cheatsheets/tools/recon/README.md)
       * [Dirb](cheatsheets/tools/recon/dirb.md)
